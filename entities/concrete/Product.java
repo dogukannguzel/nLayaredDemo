@@ -56,8 +56,8 @@ public class Product implements Entity {
         return unitInStock;
     }
 
-    public void setUnitInStrock(int unitInStrock) {
-        this.unitInStock = unitInStrock;
+    public void setUnitInStrock(int unitInStock) {
+        this.unitInStock = unitInStock;
     }
 
 
