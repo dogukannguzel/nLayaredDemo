@@ -11,12 +11,12 @@ public class Product implements Entity {
 
     public Product(){}
 
-    public Product(int id, int categoryId, String name, double unitPrice, int unitInStrock) {
+    public Product(int id, int categoryId, String name, double unitPrice, int unitInStock) {
         this.id = id;
         this.categoryId = categoryId;
         this.name = name;
         this.unitPrice = unitPrice;
-        this.unitInStock = unitInStrock;
+        this.unitInStock = unitInStock;
     }
 
 
